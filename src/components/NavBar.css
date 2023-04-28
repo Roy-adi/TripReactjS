@@ -1,0 +1,73 @@
+.navbarItem{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 30px;
+box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+width: 96%;
+height: 80px;
+border-radius: 12px;
+background-color: hwb(0 100% 0%);
+text-decoration: none;
+}
+.navbarItem img{
+    cursor: pointer;
+    width: 181px;
+    height: 37px;
+    object-fit: cover;
+}
+.yatra{
+    display: flex;
+    justify-content: center;
+    height: 39px;
+    width: 150px ;
+    position: relative;
+}
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    grid-gap: 10px;
+    text-decoration: none;
+    align-items: center;
+    list-style: none;
+    
+}
+.nav-links{
+    text-decoration: none;
+    color: #222;
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding: 0.7rem 1rem;
+    white-space: nowrap;
+}
+
+.nav-links a{
+    padding-right: 10px;
+}
+.nav-links :hover{
+    background-color: #01959a;
+    color: #fff;
+    border-radius: 4px;
+    transition: all 0.25s ease-in-out;
+
+}
+.nav-links-mobile{
+    display: none;
+}
+
+.bttn{
+    padding:0.5rem ;
+    white-space: nowrap;
+    border-radius: 0.3rem;
+    font-weight: 600;
+    border: none ;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    background-color: #83dde0;
+}
+
+button:hover{
+ background-color: #151516;
+ color: #fff;
+
+}

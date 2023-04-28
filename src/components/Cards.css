@@ -1,0 +1,38 @@
+.sdd {
+    font-size: 34px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h3{
+    font-size: 3rem;
+  }
+  .slider-card-description {
+    opacity: 1.0;
+    font-size: 16px;
+    font-weight: 200;
+}
+.primaryText {
+  color: #1f3e72;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.secondaryText {
+  color: rgb(46, 155, 155);
+  font-size:3.5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.orangeText {
+  color: cornflowerblue;
+  font-size: 1rem;
+  font-weight: 600;
+  
+}

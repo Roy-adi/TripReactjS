@@ -1,0 +1,72 @@
+.footer{
+    padding: 4rem 6rem;
+    background-color: black;
+    color: #fff;
+}
+.top{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.top i{
+    font-size: 2rem;
+    margin-left: 1rem;
+    color: white;
+}
+.top i:hover{
+    color: darkcyan;
+}
+.bottom{
+    padding-top: 2rem;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.bottom div{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bottom h4{
+    font-size: 1.3rem;
+    padding: 1rem 0 .8rem 0;
+    color: darkgoldenrod;
+
+}
+
+.bottom a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 4rem;
+    font-size: 1.1rem;
+}
+.top h1{
+    font-size: 3rem;
+    color: cyan;
+}
+
+.top p{
+    font-size: 1.5rem;
+    color: gold;
+}
+.top img{
+    cursor: pointer;
+    width: 181px;
+    height: 37px;
+    object-fit: cover;
+}
+.yatra{
+    display: flex;
+    justify-content: center;
+    height: 39px;
+    width: 150px ;
+    position: relative;
+}

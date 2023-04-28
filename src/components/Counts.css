@@ -1,0 +1,33 @@
+.flexCenter {
+    display: flex;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -178px;
+  }
+  .flexColStart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 415px;
+  }
+  
+  .stats{
+    width: 50%;
+    justify-content: space-around;
+
+}
+.stat>:nth-child(1){
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.stat>:nth-child(2){
+    color: orange;
+    
+}
